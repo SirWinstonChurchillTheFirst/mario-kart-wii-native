@@ -32,5 +32,5 @@
       "url": "https://ko-fi.com/krogger"
     }
   ],
-  "notes": "Title screen, licence creation and the single-player menu. 54-59 fps in menus (the game drops to 30 fps itself while saving the licence). Known issue: the label inside the yellow confirm bar is missing. Tested on Windows 11 (RTX 3070 Ti) and on a Linux mini PC (Ryzen 3 4350GE, Vega 6) with scripted inputs; nothing here says the game is playable to the end. Built with AI assistance (Claude)."
+  "notes": "Plays a 50cc Grand Prix race at 60 fps (one short hitch at the start), no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end. Built with AI assistance (Claude)."
 }

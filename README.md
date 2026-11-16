@@ -13,7 +13,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **RMCP01** (Europe (PAL), revision 0).
 
-Title screen, licence creation and the single-player menu. 54-59 fps in menus (the game drops to 30 fps itself while saving the licence). Known issue: the label inside the yellow confirm bar is missing. Tested on Windows 11 (RTX 3070 Ti) and on a Linux mini PC (Ryzen 3 4350GE, Vega 6) with scripted inputs; nothing here says the game is playable to the end.
+Plays a 50cc Grand Prix race at 60 fps (one short hitch at the start), no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
@@ -30,8 +30,6 @@ The same 90-second run on both machines: started from the disc, the same scripte
 |---|---|---|---|---|
 | High budget: Windows 11, Intel Core i7-13700KF, NVIDIA GeForce RTX 3070 Ti, 32 GB | 55.5 | 19.1 | 32.5 % | 7.44 % |
 | Low budget: Batocera Linux mini PC (HP), AMD Ryzen 3 PRO 4350GE with Radeon Vega 6 graphics, 8 GB | 59.3 | 26.0 | 43.5 % | 0.32 % |
-
-On the Windows PC the licence screens, which draw the Miis, take about 16 ms of game code a frame and drop to 30 fps for about ten seconds; the mini PC needs about 13 ms and stays at 60. The cause isn't found yet. The rest of the run holds 60 on both.
 
 ## Build and play
 
@@ -69,7 +67,7 @@ Wii Remote: mouse points, Enter is A, Backspace is B; arrow keys for the sideway
 ## How it's made
 
 - Runtime: [https://github.com/SirWinstonChurchillTheFirst/wii-recomp](https://github.com/SirWinstonChurchillTheFirst/wii-recomp) (branch `windows-port`, tested at
-  `365a8af5ab6f`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
+  `f26aef3318ad`), a fork of [Zontex/wii-recomp](https://github.com/Zontex/wii-recomp) with
   Windows support and the fixes this game needed. GPL-3.0-or-later.
 - Hardware behaviour follows [Dolphin](https://dolphin-emu.org) where noted in the runtime's
   CREDITS.md.
