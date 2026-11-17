@@ -1251,6 +1251,7 @@
 80096ecc 743
 80096fa8 5256
 80096fb0 7
+80096fc0 1
 80097024 12
 800970c4 4988
 800970dc 12
@@ -6798,6 +6799,7 @@ StaticR+11c19c 6
 StaticR+11c1d8 6
 StaticR+11ca60 16
 StaticR+11cb68 1
+StaticR+11cbec 1
 StaticR+11cd0c 1
 StaticR+11ce44 16
 StaticR+11fce0 47
@@ -6806,6 +6808,7 @@ StaticR+11fe44 6
 StaticR+11fe80 6
 StaticR+120198 16
 StaticR+1201f8 1
+StaticR+120228 1
 StaticR+1202a0 1
 StaticR+12030c 16
 StaticR+1211d4 10428
@@ -6864,6 +6867,7 @@ StaticR+124020 45
 StaticR+124050 1
 StaticR+124080 16
 StaticR+1240b0 6
+StaticR+1245c0 1
 StaticR+124650 77
 StaticR+1246b0 94
 StaticR+1247cc 160
@@ -9168,6 +9172,7 @@ StaticR+32736c 210
 StaticR+327968 22
 StaticR+327990 41
 StaticR+327a8c 22
+StaticR+327b50 1
 StaticR+328444 334
 StaticR+3284d0 77
 StaticR+3284ec 77
@@ -9358,6 +9363,7 @@ StaticR+3381b4 1
 StaticR+338434 195
 StaticR+338438 2
 StaticR+338734 4
+StaticR+3387ac 1
 StaticR+338820 1
 StaticR+338be0 40
 StaticR+338ed0 2
