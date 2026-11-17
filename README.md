@@ -20,7 +20,7 @@ storage, controllers) is provided by the [wii-recomp runtime](https://github.com
 
 Tested with **RMCP01** (Europe (PAL), revision 0).
 
-Plays a 50cc Grand Prix race at 60 fps (one short hitch at the start), no graphics errors seen. Tested on Windows 11 by playing into the first real scene; on the Linux mini PC through the menus. Nothing here says the game is playable to the end.
+Plays a 50cc Grand Prix race at 60 fps (one short hitch at the start), no graphics errors seen. Tested on Windows 11 and on the Linux mini PC by playing into the first real scene (mini PC: a 50cc race, 59.8 fps, no frame over 34 ms). Nothing here says the game is playable to the end.
 
 Only what is written here has been tested. It has not been played to the end. Other regions
 or revisions may work but are untested.
